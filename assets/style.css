@@ -1,0 +1,429 @@
+header {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background: #e1e2e5;
+    overflow: hidden;
+    z-index: 3; 
+}
+
+header::before,
+header::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+}
+
+/* header::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background: #fff;
+    
+    clip-path: polygon(100% 0%, 0 100%, 100% 100%);
+}
+header::after {
+    position: absolute;
+    right: 0;
+    bottom: 0%;
+    height: 100%;
+    background: #4f6dca;
+    clip-path: polygon(100% 0, 0 62.5%, 100% 100%);
+    content: "";
+    
+    z-index: 1;
+} */
+
+.head {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0; 
+}
+.imagebg{
+    padding:0 px;
+    margin:0 px ;
+    z-index: -900;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain !important;
+    overflow-clip-margin: content-box !important;
+    overflow: clip !important;
+    z-index: -200;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.paras1{
+    text-align: center;width:50%;margin: auto
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container1 {
+    position: relative;
+    /* width: 100vw; */
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+    background-color: #e0d6ca;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: 2;
+    position: relative;
+}
+
+.div1 {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: #babec0;
+    background: #e0d6ca;
+    clip-path: polygon(0% 0%, 0 100%, 100% 0%);
+    z-index: 4;
+}
+
+.div2 {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100px;
+    background: #2b7ccc;
+    background: #d9d9d9;
+    clip-path: polygon(100% 0%, 100% 100%, 0% 0%);
+    z-index: 4;
+}
+
+.footerdiv {
+    background: #2b7ccc;
+    background: #d9d9d9;
+    clip-path: polygon(0% 154%, 102% 100%, 0% 0%);
+    height: 200px;
+}
+
+#menu {
+    text-align: right;
+    /*content: "";*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    /* background: #cc2b6b; */
+    background: #2b7ccc;
+    background: #d9d9d9;
+    clip-path: polygon(100% 0%, 100% 100%, -175% 0%);
+    z-index: 3;
+}
+
+.button-container {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 30;
+}
+
+.button {
+    cursor: pointer;
+    font-size: xx-large;
+    color: #63E6BE;
+}
+
+.div3 {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -100px;
+    width: 100%;
+    height: 100px;
+    background: #64af38;
+    background:#d9d9d9;
+    clip-path: polygon(0% 0%, 0 100%, 100% 100%);
+    z-index: 5;
+}
+
+.div4 {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -100px;
+    width: 100%;
+    height: 100px;
+    background: #e0d6ca;
+    clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
+    z-index: 5;
+}
+
+.div5 {
+    content: "";
+    position: relative;
+    right: 0;
+    top: 99px;
+    width: 100%;
+    height: 100px;
+    background: #e0d6ca;
+    clip-path: polygon(100% 0%, 0% 0%, 0% 100%);
+    z-index: 5;
+}
+
+.div6 {
+    content: "";
+    position: relative;
+    right: 0;
+    top: -98px;
+    width: 100%;
+    height: 100px;
+    background: #e0d6ca;
+    clip-path: polygon(100% 100%, 0% 100%, 100% 0%);
+    z-index: 5;
+}
+
+.div7 {
+    content: "";
+    position: relative;
+    right: 0;
+    top: -98px;
+    width: 100%;
+    height: 400px;
+    background: #e0d6ca;
+    clip-path: polygon(100% 100%, 0% 100%, 0% 50%, 100% 0%);
+    z-index: 5;
+}
+
+.header1::after {
+    position: absolute;
+    right: 0;
+    bottom: 0%;
+    height: 100%;
+    background: #4f6dca;
+    clip-path: polygon(100% 0, 0 62.5%, 100% 100%);
+    content: "";
+    z-index: 0;
+}
+
+.button-container {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 30;
+}
+
+.button {
+    cursor: pointer;
+    font-size: xx-large;
+    color: #63E6BE;
+}
+
+.dropdown {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: #2b7ccc;
+    background: #d9d9d9;
+    display: none;
+    padding: 33px;
+    clip-path: polygon(100% 100%, 0% 32.5%, 43% 10%, 100% 0%, 57% 5%, 100% 5%, 100% 5%);
+    width: 100%;
+    z-index: 7;
+}
+
+.dropdown a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    left: 0;
+    bottom: 0%;
+    z-index: 2;
+}
+
+.new-content {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    height: auto;
+    max-height: 80vh;
+    display: none;
+    position: fixed;
+    /* Change to fixed to keep it in position when scrolling */
+    top: 150px;
+    /* Adjust the top position to align with the header */
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.effect1 {
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ul-style {
+    list-style-type: none;
+    padding-right: 20px;
+    font-size: x-large;
+    color: white;
+    margin: 0;
+    /*position: relative;*/
+    /*display: flex;
+    flex-direction: column;
+    /*justify-content: flex-end;*/
+}
+
+.menu-item {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+}
+
+.sub-menu {
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    /*left: -150px;*/
+    left: -150px;
+    /* Position the sub-menu to the left of the parent li */
+    /*transform: translateX(-10px);*/
+    top: 0;
+    background-color: #2b7ccc;
+    background: #d9d9d9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    clip-path: none;
+}
+
+.menu-item:hover .sub-menu {
+    display: block;
+}
+
+
+.ul-style li {
+    padding: 10px;
+    /*position: relative;*/
+}
+
+#fixedsocial {
+    top: 30%;
+    height: 200px;
+    width: 60px;
+    position: fixed;
+    right: 0;
+    z-index: 6
+}
+
+
+.whiteline {
+    margin-top: 20px;
+    /*width:10px;*/
+    border: 1px solid white;
+
+}
+
+#whyChooseUsContainer {
+    overflow: hidden;
+    width: 100%;
+    /* background:#babec0;*/
+    background: #2b7ccc;
+    background: #d9d9d9;
+    text-align: center;
+    padding: 20px 0;
+    height: 250px;
+}
+
+#reasonsContainer {
+    white-space: nowrap;
+    /* overflow: hidden; */
+    height: 500px;
+}
+
+
+.reasonBox {
+    display: inline-block;
+    margin-right: 50px;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    height: 125px;
+    width:250px
+}
+
+@keyframes scrollReasons {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.reasonBox img {
+    width: 250px;
+    /* Adjust the width as needed */
+    height: 125px;
+    /* Adjust the height as needed */
+    margin-right: 50px;
+}
+
+.marquee-wrapper {
+    animation: scrollReasons 30s linear infinite;
+}
+
+.mobilefit{
+    padding-top:150px;
+    padding-left:7%;
+    padding-right: 7%;
+}
+
+@media screen and (max-width:500px){
+    .paras1{
+        width:75%;
+    }
+    .mobilefit{
+      padding-top: 190px;
+    }
+}
