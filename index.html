@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)https://www.sjinteriorsdnd.co.in/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SJ Interiors</title>
+    <link rel="stylesheet" href="./SJ Interiors_files/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
+    
+        <!-- Google Font Example -->
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    
+    
+
+
+
+  
+    <script src="./SJ Interiors_files/jquery.min.js.download"></script>
+    <script>
+        $(document).ready(function () {
+            $("#includedContent").load("./header.html");
+            $("#includedContent1").load("./footer.html");
+            $(".custom-button").on("mouseenter", function () {
+                $(this).animate({ width: "150px" });
+                console.log($(this).attr("id"));
+                var b1 = $(this).attr("id").split("_");
+                console.log(b1[1]);
+                if (b1[1] == 1) {
+                    var link1 = "#h_" + b1[1];
+                    // $(link1).text("Link 1").fadeIn(500);
+                    $(link1).fadeOut(100, function () {
+                        $(this).text("Link 1").fadeIn(100);
+                    });
+                } else if (b1[1] == 2) {
+                    var link1 = "#h_" + b1[1];
+                    $(link1).fadeOut(100, function () {
+                        $(this).text("Link 2").fadeIn(100);
+                    });
+                } else if (b1[1] == 3) {
+                    var link1 = "#h_" + b1[1];
+                    $(link1).fadeOut(100, function () {
+                        $(this).text("Link 3").fadeIn(100);
+                    });
+                } else if (b1[1] == 4) {
+                    var link1 = "#h_" + b1[1];
+                    $(link1).fadeOut(100, function () {
+                        $(this).text("Link 4").fadeIn(100);
+                    });
+                } else {
+                    var link1 = "#h_" + b1[1];
+                    $(link1).fadeOut(100, function () {
+                        $(this).text("Link 5").fadeIn(100);
+                    });
+                }
+
+
+            });
+            $(".custom-button").on("mouseleave", function () {
+                $(this).animate({ width: "30px" });
+                var b1 = $(this).attr("id").split("_");
+                console.log(b1[1]);
+                var link1 = "#h_" + b1[1];
+                // $(link1).text('+').fadeIn(500);
+                $(link1).fadeOut(100, function () {
+                    $(this).text("+").fadeIn(100);
+                });
+            });
+
+        });
+
+        /*javascript for scrolling*/
+        document.addEventListener('DOMContentLoaded', function () {
+            const marquee = document.getElementById('reasonsContainer');
+
+            // Clone the marquee content to create a continuous loop
+            marquee.innerHTML += marquee.innerHTML;
+
+            // Calculate the width of the marquee content for animation
+            const marqueeWidth = marquee.scrollWidth;
+
+            // Animate the marquee
+            function animateMarquee() {
+                anime({
+                    targets: marquee,
+                    translateX: [-marqueeWidth, 0],
+                    easing: 'linear',
+                    duration: 5000, // Adjust the duration as needed
+                    loop: true
+                });
+            }
+
+            // Call the animateMarquee function when the DOM is ready
+            animateMarquee();
+        });
+    </script>
+
+</head>
+
+<body>
+    <div id="fixedsocial">
+        <a href="https://wa.me/916303062887" target="_blank" id="wmobile1">
+            <div class="whatsappflat"></div>
+        </a>
+        <br>
+        <a href="https://www.instagram.com/sj_interiors_dnd?igsh=M2J4cWIzYW9qbHBv" target="_blank">
+            <div class="callflat"></div>
+        </a>
+        <br>
+        <!-- "Get a Quote" Button -->
+        <button id="getQuoteBtn">
+            <img src="assets/get a quote.jpg" alt="Get a Quote Icon" class="quote-icon">
+            </button>
+    </div>
+    
+    <!-- Popup Form -->
+    <div id="quoteFormPopup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <h2>Get a Quote</h2>
+            <div class="custom-contact-section">
+                <div class="custom-contact-container">
+                  
+                  <!-- Left Section - Contact Form -->
+                  <div class="custom-contact-form">
+                    <div class="custom-contact-header">
+                    </div>
+                    <form class="custom-form">
+                      <input type="text" name="name" placeholder="Name">
+                      <input type="text" name="phone" placeholder="Phone Number">
+                      <input type="email" name="email" placeholder="Email">
+                      <input type="text" name="budget" placeholder="Budget">
+                      <textarea name="message" placeholder="Message"></textarea>
+                      <button type="submit">SEND</button>
+                    </form>
+                  </div>
+              
+                  <!-- Right Section - Office Details -->
+                  <div class="custom-office-details">
+                    <br>
+                    <br>
+                      <br>
+                      
+                    <img src="assets/table.webp" alt="Office Image" class="custom-office-image">
+                    <div class="custom-office-info">
+                    </div>
+                  </div>
+              
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="container1" style="background-color: #e0d6ca;">
+        
+            <div style="position: sticky;z-index: 10;;background-color: transparent;top:0%;left: 0%;z-index: 20;width: 100%;">
+                <div id="includedContent"><script src="./SJ Interiors_files/jquery.min.js.download"></script>
+<link rel="stylesheet" href="./SJ Interiors_files/all.min.css">
+<script src="./SJ Interiors_files/jquery.min.js.download"></script>
+<link href="./SJ Interiors_files/bootstrap.min.css" rel="stylesheet">
+<script src="./SJ Interiors_files/bootstrap.bundle.min.js.download"></script>
+<script>
+	$(document).ready(function(){
+		$("#menu").hide();
+		$("#menu_btn").click(function(){
+			$("#menu").slideToggle(500);
+		});
+	});
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./SJ Interiors_files/css2" rel="stylesheet">
+
+
+<script>
+    // Get elements
+const getQuoteBtn = document.getElementById('getQuoteBtn');
+const quoteFormPopup = document.getElementById('quoteFormPopup');
+const closeBtn = document.querySelector('.close-btn');
+
+// Show the popup when clicking "Get a Quote"
+getQuoteBtn.onclick = function() {
+    quoteFormPopup.style.display = 'block';
+};
+
+window.onload = function() {
+        quoteFormPopup.style.display = 'block';
+    };
+
+// Close the popup when clicking the close button
+closeBtn.onclick = function() {
+    quoteFormPopup.style.display = 'none';
+};
+
+// Close the popup when clicking outside of it
+window.onclick = function(event) {
+    if (event.target == quoteFormPopup) {
+        quoteFormPopup.style.display = 'none';
+    }
+};
+
+</script>
+
+
+<style>
+
+
+.quote-icon {
+    width: 60px; /* Set icon width */
+    height: 60px; /* Set icon height */
+    margin-right: 20px;
+    vertical-align: middle;
+}
+/* General Styling for Contact Section */
+.custom-contact-section {
+                  display: flex;
+                  justify-content: center;
+                  padding: 40px 20px;
+                  background-color: #e0d6ca;
+                }
+                
+                .custom-contact-container {
+                  display: flex;
+                  width: 80%;
+                  max-width: 1200px;
+                  gap: 40px;
+                }
+                
+                /* Left Section - Contact Form */
+                .custom-contact-form {
+                  flex: 1;
+                }
+                
+                .custom-contact-header {
+                  margin-bottom: 20px;
+                }
+                
+                .custom-contact-button {
+                  background-color: #4a3b29;
+                  color: #fff;
+                  border: none;
+                  padding: 8px 16px;
+                  font-size: 14px;
+                  cursor: pointer;
+                  border-radius: 4px;
+                }
+                
+                .custom-contact-header h1 {
+                  font-size: 36px;
+                  margin: 10px 0;
+                  color: #333;
+                }
+                
+                .custom-contact-header p {
+                  font-size: 16px;
+                  color: #666;
+                }
+                
+                .custom-form input,
+                .custom-form textarea {
+                  width: 100%;
+                  padding: 12px;
+                  margin-bottom: 15px;
+                  border: 1px solid #ccc;
+                  border-radius: 4px;
+                  font-size: 16px;
+                }
+                
+                .custom-form textarea {
+                  resize: none;
+                  height: 60px;
+                }
+                
+                .custom-form button {
+                  width: 100%;
+                  padding: 14px;
+                  font-size: 13px;
+                  background-color: #000;
+                  color: #fff;
+                  border: none;
+                  cursor: pointer;
+                  border-radius: 4px;
+                }
+                
+                /* Right Section - Office Details */
+                .custom-office-details {
+                  flex: 1;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  text-align: left;
+                  color: #333;
+                }
+                
+                .custom-office-image {
+                  max-width: 100%;
+                  border-radius: 8px;
+                  margin-bottom: 20px;
+                }
+                
+                .custom-office-info {
+                  font-size: 16px;
+                  line-height: 1.6;
+                }
+                
+                .custom-office-info p {
+                  margin: 15px 0;
+                }
+                
+                .custom-office-info strong {
+                  color: #333;
+                  font-weight: bold;
+                }
+
+
+
+#fixedsocial {
+    top: 30%;
+    height: 200px;
+    width: 60px;
+    position: fixed;
+    right: 0;
+    z-index: 6;
+}
+
+#fixedsocial #getQuoteBtn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Popup Form Styling */
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay effect */
+    z-index: 7;
+}
+
+.popup-content {
+    position: relative;
+    margin: 10% auto;
+    padding: 20px;
+    width: 1000px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+    .ibm-plex sans-thin {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+    }
+
+    .ibm-plex sans-extralight {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .ibm-plex sans-light {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .ibm-plex sans-regular {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .ibm-plex sans-medium {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .ibm-plex sans-semibold {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .ibm-plex sans-bold {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .ibm-plex sans-thin-italic {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+    }
+
+    .ibm-plex sans-extralight-italic {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 200;
+        font-style: italic;
+    }
+
+    .ibm-plex sans-light-italic {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    .ibm-plex sans-regular-italic {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .ibm-plex sans-medium-italic {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+    }
+
+    .ibm-plex sans-semibold-italic {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    .ibm-plex sans-bold-italic {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+    }
+    li{
+        color: maroon;
+    }
+    body img:hover {
+    opacity: 1; /* Full opacity on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+body {
+  animation: fadeIn 1.5s ease-in-out;
+  animation-delay: 0.5s; /* You can adjust the delay */
+}
+
+h1, h2, h3, p, span, a {
+  animation: fadeIn 2s ease-in-out forwards;
+  animation-delay: 0.5s; /* Adjust the delay as needed */
+}
+
+</style>
+<div class="div2">
+	<div class="button-container">
+		<i class="fa fa-bars button" id="menu_btn" style="color: maroon;"></i>
+	</div>
+</div>
+<div id="menu" style="display: none;">
+	<!--<br>
+	<br>
+	<br>-->
+	<br><br>
+	<br><br>
+
+	<ul class="ul-style"  style="background-image: url('assets/bg11.jpg'); background-size: cover; ">
+		<a href="index.html"><li style="font-weight: bolder;">Home</li></a>
+        <a href="about us.html"><li class="menu-item">About Us
+        </li></a>
+        <a href="services.html"><li>Services</li></a>
+      
+        <a href="contactus.html"><li class="menu-item">Contact Us
+        </li>
+    
+        <a href="portfolio.html"><li>Portfolio</li></a>
+
+        <a href="blog.html"><li class="menu-item">Blogs
+        </li>
+        <a href="faqs.html"><li >FAQs
+        </li>
+		
+		
+	</ul>
+    <br>
+    <br><br>
+</div>
+<style>
+
+    .ul-style img{
+        opacity: 0.7;
+    }
+</style>
+<div class="div1" style="display:flex ;flex-direction: row;justify-content: flex-start;align-items: baseline">
+
+	<a href="index.html">
+        <img src="./SJ Interiors_files/logo.png" style="z-index: inherit; padding-left: 30px; padding-top: 10px;" height="80px" alt="Logo">
+      </a>
+	<div></div>
+</div>
+</div>
+            </div>
+            <div style="z-index: 1;">
+                <video src="./assets/Untitled design (5).mp4" autoplay="" muted="" loop="">
+
+                </video>
+            </div>
+            <div style="position: relative;">
+
+                <div class="div3"> </div>
+                <div class="div4"> </div>
+            </div>
+            <div class="paras1" style="background-color: #e0d6ca;">
+                <br><br>
+                <h1>SJ Interiors</h1>
+                <h6>Designs and Decors</h6>
+                <br>
+                <p style="text-align: justify; font-family: Arial, sans-serif;">SJ Interiors DnD is a premier interior design firm catering to home and
+                    institutional clients, driven by a profound commitment to sustainability and excellence.
+                    Our firm is a beacon of innovation, boasting a distinguished in-house design team renowned for their
+                    intelligence and creativity.
+                    With a portfolio brimming with prestigious design projects, we've garnered praise and positive
+                    feedback, solidifying our reputation as leaders in the industry.
+                    At SJ Interiors, we aspire to reshape spaces through the power of imagination, crafting exquisite
+                    homes and offices adorned with products renowned for their superior aesthetics, performance, and
+                    technological sophistication.
+                    From conception to execution, we merge artistry with advanced computational techniques, ensuring
+                    each project reflects our unwavering dedication to beauty, functionality, and innovation.</p>
+                <br>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="row" style="width: 90%;margin: auto">
+                        <div class="col-md-4" style="margin-top:20px">
+                            <div style="text-align: center">
+                                
+                                <div style="text-align: -webkit-center">
+                                    
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="col-md-4" style="margin-top:20px">
+                            <div style="text-align: center">
+                                
+                                <div style="text-align: -webkit-center">
+                                    
+                            </div>
+
+                        </div>
+                        <div class="col-md-4" style="margin-top:20px">
+                            <div style="text-align: center">
+                               
+                                </div>
+                                <div style="text-align: -webkit-center">
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <link rel="stylesheet" href="./SJ Interiors_files/icon">
+            <div id="whyChooseUsContainer" class="why-choose-us py-8 lg:py-10" style="margin-top: 50px;">
+                <div class="wrapper-class-secondary">
+                    <h2 class="text-center">Why choose us</h2>
+                    <div id="reasonsContainer" class="marquee-wrapper">
+                        <div class="reasonBox"><i class="material-icons">access_time</i><br>Flat 10-year warranty¹</div>
+                        <div class="reasonBox"><i class="material-icons">payment</i><br>Easy EMIs</div>
+                        <div class="reasonBox"><i class="material-icons">verified_user</i><br>45-day move-in guarantee²</div>
+                        <div class="reasonBox"><i class="material-icons">check_circle</i><br>146 quality checks</div>
+                        <!-- Add more reason boxes as needed -->
+                    
+                        <div class="reasonBox"><i class="material-icons">access_time</i><br>Flat 10-year warranty¹</div>
+                        <div class="reasonBox"><i class="material-icons">payment</i><br>Easy EMIs</div>
+                        <div class="reasonBox"><i class="material-icons">verified_user</i><br>45-day move-in guarantee²</div>
+                        <div class="reasonBox"><i class="material-icons">check_circle</i><br>146 quality checks</div>
+                        <!-- Add more reason boxes as needed -->
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="paras1">
+                <br><br>
+                <h1>End to End Interior Solutions</h1>
+                <div class="whiteline"></div>
+                <br>
+            </div>
+                <div class="text-with-images" style="display: flex; align-items: flex-start; justify-content: space-around; padding: 20px; gap: 20px;">
+                    <!-- Left Image -->
+                    <div class="image-left">
+                        <img src="assets/service (12).jpg" alt="Left Decorative Image" style="width: 200px; height: 300px; border-radius: 10px;">
+                    </div>
+                
+                    <!-- Text Content -->
+                    <p style="flex: 2; text-align: justify; max-width: 600px;">
+                        SJ Interior's DnD is on a mission to revolutionize spaces through the power of our imagination, crafting stunning homes and offices that reflect our deepest desires.
+                        Our products boast unparalleled excellence in aesthetics, performance, and technology, elevating every aspect of interior design.
+                        We believe in the transformative potential of design, harnessing the synergy between creativity and cutting-edge computation to manifest dreams into reality.
+                        From sleek minimalist designs to opulent extravagance, we tailor each space to embody the unique essence of our client's visions.
+                        With SJ Interior's DnD, prepare to embark on a journey where imagination knows no bounds, and every space becomes a masterpiece of innovation and beauty.
+                    </p>
+                
+                    <!-- Right Image -->
+                    <div class="image-right">
+                        <img src="assets/service (5).jpg" alt="Right Decorative Image" style="width: 200px; height: 300px; border-radius: 10px;">
+                    </div>
+                </div>
+                
+            
+            <br>
+            
+
+            
+
+<br>
+
+
+
+<!--our approachh
+-->
+
+
+
+<div style="font-family: Arial, sans-serif; background-color: #e0d6ca; color: #000; padding: 40px; text-align: center;">
+    <h1 style="font-size: 38px; font-weight: bold; margin-bottom: 30px;">Our Approach</h1>
+    <br>
+    
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 40px;">
+        <!-- Institutional Interiors Section -->
+        <div style="display: flex; width: 80%; background-color: #e0d6ca; color: #000;">
+            <!-- Image on the Left -->
+            <img src="assets/y.jpg" alt="Institutional Interiors" style="width: 50%; height: auto; border-radius: 8px;">
+            <!-- Text on the Right -->
+            <div style="padding: 20px; display: flex; flex-direction: column; justify-content: center; text-align: left; width: 50%;">
+                <h2 style="font-size: 24px; margin-bottom: 10px; text-align: center;">From Vision to Reality</h2>
+                <p style="font-size: 16px; margin-bottom: 15px;text-align: center;">Your vision is our starting point. We bring it to life with a seamless, turnkey process, handling every
+                    detail to create a space that’s uniquely yours. We ensure that every element reflects the elegance and
+                    personality you desire in your space.</p>
+                <a href="contactus.html" style="font-size: 16px;text-align: center; font-weight: bold; color: #000; text-decoration: underline;">Contact Us</a>
+            </div>
+        </div>
+        
+        <!-- Moinabad Villa Section -->
+        <div style="display: flex; width: 80%; background-color: #e0d6ca; color: #000; flex-direction: row-reverse;">
+            <!-- Image on the Right -->
+            <img src="assets/y2.jpg" alt="Moinabad Villa" style="width: 50%; height: auto; border-radius: 8px;">
+            <!-- Text on the Left -->
+            <div style="padding: 20px; display: flex; flex-direction: column; justify-content: center; text-align: left; width: 50%;">
+                <h2 style="font-size: 24px; margin-bottom: 10px;text-align: center;">Concept and Vision</h2>
+                <p style="font-size: 16px; margin-bottom: 15px;text-align: center;">Our journey begins with a personalized meeting, where we dive into your lifestyle, needs, and
+                    aspirations. We listen closely, establishing an open dialogue to shape a truly custom project.
+                    Through a collaborative, iterative process, we refine concepts based on your feedback, working
+                    together until we achieve a vision that not only meets but exceeds your expectations.</p>
+                <a href="contactus.html" style="font-size: 16px;text-align: center; font-weight: bold; color: #000; text-decoration: underline;">Contact Us</a>
+            </div>
+        </div>
+       
+    <div style="display: flex; width: 80%; background-color: #e0d6ca; color: #000;">
+        <!-- Image on the Left -->
+        <img src="assets/y3.jpg" alt="Institutional Interiors" style="width: 50%; height: auto; border-radius: 8px;">
+        <!-- Text on the Right -->
+        <div style="padding: 20px; display: flex; flex-direction: column; justify-content: center; text-align: left; width: 50%;">
+            <h2 style="font-size: 24px; margin-bottom: 10px; text-align: center;">Refinement and Materials</h2>
+            <p style="font-size: 16px; margin-bottom: 15px;text-align: center;">With the concept set, we dive into the detailed design—floor plans, elevations, and technical specs
+                for every aspect. At this stage, we guide you through selecting materials and furnishings to align
+                perfectly with the vision.
+                Our network of top artisans provides exclusive, custom options, ensuring every element is unique
+                and of the highest quality.</p>
+            <a href="contactus.html" style="font-size: 16px;text-align: center; font-weight: bold; color: #000; text-decoration: underline;">Contact Us</a>
+        </div>
+    </div>
+    
+        
+    <div style="display: flex; width: 80%; background-color: #e0d6ca; color: #000; flex-direction: row-reverse;">
+        <!-- Image on the Right -->
+        <img src="assets/y4.jpg" alt="Moinabad Villa" style="width: 50%; height: auto; border-radius: 8px;">
+        <!-- Text on the Left -->
+        <div style="padding: 20px; display: flex; flex-direction: column; justify-content: center; text-align: left; width: 50%;">
+            <h2 style="font-size: 24px; margin-bottom: 10px;text-align: center;">Project Execution</h2>
+            <p style="font-size: 16px; margin-bottom: 15px;text-align: center;">We bring your vision to life with seamless execution, managing every detail from construction to
+                installation. Through clear communication, we ensure the project stays aligned with your
+                expectations and delivers on quality.</p>
+            <a href="contactus.html" style="font-size: 16px;text-align: center; font-weight: bold; color: #000; text-decoration: underline;">Contact Us</a>
+        </div>
+    </div>
+
+
+    <div style="display: flex; width: 80%; background-color: #e0d6ca; color: #000;">
+        <!-- Image on the Left -->
+        <img src="assets/y5.jpg" alt="Institutional Interiors" style="width: 50%; height: auto; border-radius: 8px;">
+        <!-- Text on the Right -->
+        <div style="padding: 20px; display: flex; flex-direction: column; justify-content: center; text-align: left; width: 50%;">
+            <h2 style="font-size: 24px; margin-bottom: 10px; text-align: center;">Delivery and Support</h2>
+            <p style="font-size: 16px; margin-bottom: 15px;text-align: center;">We finalize our journey with a thorough presentation of your space, ensuring every detail meets our
+                quality standards and your expectations.
+                But our commitment doesn’t end here—we provide post-project support to keep your space
+                functioning beautifully. Whether for updates, adjustments, or maintenance advice, we’re here to
+                help you enjoy your new environment to the fullest.</p>
+            <a href="contactus.html" style="font-size: 16px;text-align: center; font-weight: bold; color: #000; text-decoration: underline;">Contact Us</a>
+        </div>
+    </div>
+    </div>
+</div>
+    
+
+<div style="font-family: Arial, sans-serif; background-color: #e0d6ca; color: #000; padding: 40px; text-align: center;">
+    <h1 style="font-size: 38px; font-weight: bold; margin-bottom: 30px;">Our Previous Projects</h1>
+    <h2 style="font-size: 22px; font-weight: bold; margin-bottom: 30px;">Highlighted Projects Hyderabad - Architecture & interiors</h2>
+    
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 40px;">
+        <!-- Institutional Interiors Section -->
+        <div style="display: flex; width: 80%; background-color: #e0d6ca; color: #000;">
+            <!-- Image on the Left -->
+            <img src="assets/II.jpg" alt="Institutional Interiors" style="width: 50%; height: auto; border-radius: 8px;">
+            <!-- Text on the Right -->
+            <div style="padding: 20px; display: flex; flex-direction: column; justify-content: center; text-align: left; width: 50%;">
+                <h2 style="font-size: 24px; margin-bottom: 10px; text-align: center;">Institutional Interiors</h2>
+                <p style="font-size: 16px; margin-bottom: 15px;text-align: center;">Created to enhance user experience, assist institution operations, and reflect institution values and culture.</p>
+                <a href="contactus.html" style="font-size: 16px;text-align: center; font-weight: bold; color: #000; text-decoration: underline;">FIND OUT MORE</a>
+            </div>
+        </div>
+        
+        <!-- Moinabad Villa Section -->
+        <div style="display: flex; width: 80%; background-color: #e0d6ca; color: #000; flex-direction: row-reverse;">
+            <!-- Image on the Right -->
+            <img src="assets/MV.jpg" alt="Moinabad Villa" style="width: 50%; height: auto; border-radius: 8px;">
+            <!-- Text on the Left -->
+            <div style="padding: 20px; display: flex; flex-direction: column; justify-content: center; text-align: left; width: 50%;">
+                <h2 style="font-size: 24px; margin-bottom: 10px;text-align: center;">Moinabad Villa</h2>
+                <p style="font-size: 16px; margin-bottom: 15px;text-align: center;">Outdoor Living Spaces with warm climates in mind, villas often feature outdoor living spaces such as patios, decks, and verandas. These spaces are perfect for entertaining and enjoying the beautiful weather.</p>
+                <a href="contactus.html" style="font-size: 16px;text-align: center; font-weight: bold; color: #000; text-decoration: underline;">FIND OUT MORE</a>
+            </div>
+        </div>
+       
+    <div style="display: flex; width: 80%; background-color: #e0d6ca; color: #000;">
+        <!-- Image on the Left -->
+        <img src="assets/FD.jpg" alt="Institutional Interiors" style="width: 50%; height: auto; border-radius: 8px;">
+        <!-- Text on the Right -->
+        <div style="padding: 20px; display: flex; flex-direction: column; justify-content: center; text-align: left; width: 50%;">
+            <h2 style="font-size: 24px; margin-bottom: 10px; text-align: center;">Furniture Design</h2>
+            <p style="font-size: 16px; margin-bottom: 15px;text-align: center;">Our design philosophy is focused on creating furniture that perfectly combines form and function while also looking stunning. We think that furniture should not only improve a room's aesthetic appeal but also be cosy, practical, and useful. We devote our hearts and souls to making items that are not only beautiful to look at but also useful and functional.</p>
+            <a href="contactus.html" style="font-size: 16px;text-align: center; font-weight: bold; color: #000; text-decoration: underline;">FIND OUT MORE</a>
+        </div>
+    </div>
+    </div>
+    
+</div>
+
+<div class="review" >
+    
+<div style="font-family: Arial, sans-serif; background-color: #e0d6ca; color: #000; padding: 40px; text-align: center;">
+    <h1 style="font-size: 38px; font-weight: bold; margin-bottom: 30px;">Our Customers Feedback</h1>
+    
+
+    <div class="scroler">
+        <div class="scroll-container" style="background-color: #e0d6ca ;">
+          <div class="scroll-images">
+            <a href="https://www.google.com/search?kgmid=/g/11pd31xh86&hl=en-IN&q=SJ+Interiors+DnD&shndl=30&source=sh/x/loc/osrp/m5/2&kgs=6b8f971fd8dd2e6d#lrd=0x3a39456b70210cb7:0x8831a90181dcf5dc,1,,,," target="_blank">
+            <img src="assets/review (1).png" alt="Image 1">
+            <img src="assets/review (2).png" alt="Image 2">
+            <img src="assets/review (3).png" alt="Image 3">
+            <img src="assets/review (4).png" alt="Image 4">
+            <img src="assets/review (1).png" alt="Image 1">
+            <img src="assets/review (2).png" alt="Image 2">
+            <img src="assets/review (3).png" alt="Image 3">
+            <img src="assets/review (4).png" alt="Image 4">
+            <img src="assets/review (1).png" alt="Image 1">
+            <img src="assets/review (2).png" alt="Image 2">
+            <img src="assets/review (3).png" alt="Image 3">
+            <img src="assets/review (4).png" alt="Image 4">
+            <img src="assets/review (1).png" alt="Image 1">
+            <img src="assets/review (2).png" alt="Image 2">
+            <img src="assets/review (3).png" alt="Image 3">
+            <img src="assets/review (4).png" alt="Image 4"> </a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+       <style>
+          scroler {
+            margin: 0;
+            overflow: hidden;
+            
+          }
+          .scroll-container {
+            display: flex;
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+          }
+          .scroll-images img {
+            border-radius: 15px;
+          }
+          .scroll-images {
+            display: flex;
+
+            animation: scroll 180s linear infinite;
+          }
+          .scroll-images img {
+            width: 550px;
+            height: auto;
+            margin-right: 10px;
+          }
+          .scroler img {
+            opacity: 0.8;
+          }
+          @keyframes scroll {
+            from {
+              transform: translateX(0);
+            }
+            to {
+              transform: translateX(-100%);
+            }
+          }
+
+          @keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Optional: slight upward motion */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+        </style>
+
+
+
+
+            <br>
+            <div class="div5"> </div>
+            <div style="background-color: #e0d6ca;">
+                <div class="effect1" style="background-image: url(&#39;./assets/slide1.png&#39;);">
+                </div>
+                <div class="effect1" style="background-image: url(&#39;./assets/slide3.png&#39;);">
+                    
+                </div>
+                <div class="effect1" style="background-image: url(&#39;./assets/slide2.png&#39;);">
+                    <div class="hoiii">
+                        <div class="hero-section">
+                            <div class="hero-content">
+                                <h1>Have a project in mind?</h1>
+                                <p>Ready to transform your space? Let's turn your vision into reality. Contact us now to discuss your interior design project and bring your ideas to life!</p>
+                                <a href="contactus.html" class="contact-button">CONTACT US →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+   
+
+            
+            <div class="row" style="width:80%;margin: auto">
+                <div class="col-md-6" style="align-self: center">
+                    
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-5" style="margin: 15px">
+                            
+                        </div>
+                        <div class="col-md-5" style="margin: 15px">
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <div style="font-family: Arial, sans-serif; background-color: #e0d6ca; color: #000; padding: 40px; text-align: center;">
+                <h1 style="font-size: 38px; font-weight: bold; margin-bottom: 30px;">Meet Our Founders</h1>
+            </div>
+    
+
+    <div style="display: flex; justify-content: space-between; padding: 20px;">
+        <!-- Founder 1 -->
+        <div class="fade-in slide-left" style="width: 45%; text-align: center; position: relative;">
+            <img src="assets/founder1.JPG" alt="Kanuri Sai Kumar" style="width: 70%; height: auto; border-radius: 16px;">
+            
+            <!-- Social media icons -->
+            <a href="contactus.html" style="font-size: 18px; font-weight: bold; margin-top: 10px;"><p>Sai Kumar Kanuri</p></a>
+            
+            <p style="font-size: 14px; font-weight: bold; margin-top: 10px;">FOUNDER & CEO</p>
+            <a href="about us.html" style="font-size: 16px;text-align: center; font-weight: bold; color: #000; text-decoration: underline;">Know More -></a>
+            
+        </div>
+
+        <!-- Founder 2 -->
+        <div class="fade-in slide-right" style="width: 45%; text-align: center; position: relative;">
+            <img src="assets/founder2.jpg" alt="Rani Swapna Reddy" style="width: 70%; height: auto; border-radius: 16px;">
+            <a href="contactus.html" style="font-size: 18px; font-weight: bold; margin-top: 10px;"><p>Rani Swapna Reddy</p></a>
+            
+        
+            <p style="font-size: 14px; font-weight: bold; margin-top: 10px;">CO-FOUNDER & CFO</p>
+            <a href="about us.html" style="font-size: 16px;text-align: center; font-weight: bold; color: #000; text-decoration: underline;">Know More -></a>
+            
+        </div>
+    </div>
+    <br><br><br>
+        
+            <style>
+                hoiii {
+                    align-self: center;
+                    margin: 0;
+                    padding: 0;
+                    font-family: Arial, sans-serif;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100vh;
+                    background-color: #333;
+                }
+                .hero-section {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 50px;
+                    width: 100%;
+                    max-width: 1200px;
+                    background-color: transparent;
+                    color: #fff;
+                    
+                    background-size: cover;
+                    background-position: center;
+                    border-radius: 10px;
+                }
+                .hero-content {
+                    max-width: 600px;
+                    color: #000000;
+                }
+                .hero-content h1 {
+                    font-size: 3em;
+                    font-weight: bold;
+                    margin: 0 0 20px;
+                }
+                .hero-content p {
+                    font-size: 1.2em;
+                    line-height: 1.5;
+                    margin: 0 0 30px;
+                }
+                .contact-button {
+                    display: inline-block;
+                    padding: 15px 30px;
+                    font-size: 1em;
+                    font-weight: bold;
+                    color: #fff;
+                    background-color: #000;
+                    text-decoration: none;
+                    border-radius: 5px;
+                    transition: background-color 0.3s ease;
+                }
+                .contact-button:hover {
+                    background-color: #333;
+                }
+            </style>
+        <div id="includedContent1"><style>
+    .footerdiv{
+        background: #2b7ccc;
+        background: #d9d9d9;
+        clip-path: polygon(0% 100%, 100% 100%,100% 40%, 0% 0%);
+        height: 400px;
+    }
+    .iconspace{
+        padding: 10px;
+    }
+    .imgspace{
+        margin: 10px;
+    }
+    .footerdivstyle1{
+        background-color:#d9d9d9 ;
+        z-index: 1000;
+        color: white;
+        position: absolute;
+        bottom: 0px;
+        width:100%;
+        height: max-content;
+    }
+    .footerdivstyle2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+    .footerdivstyle3{
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        width: fit-content;
+    }
+    .footerdivstyle4{
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        width: fit-content;
+    }
+    @media screen and (max-width:500px){
+        .footerdivstyle1{
+            margin:0px;
+        }
+        .footerdivstyle2{
+            flex-direction: column;
+            justify-content: center;
+        }
+        .footerdivstyle3{
+            margin-left: 0px;
+            width: -webkit-fill-available;
+        }
+        .footerdiv{
+            height:700px;
+        }      
+        .footerdivstyle4{
+            margin-left: 0px;
+        }  
+        
+    }
+</style>
+<!-- <div class="div7" style="background-image: url('./assets/bcak.jpg');opacity: 0.5">
+
+</div> -->
+<div class="footerdiv" style="position: relative;">
+    
+    <div class="row footerdivstyle1">
+        <div class="col-sm-12 col-md-12 footerdivstyle2">
+            <div class="col-md-3 col-sm-12 footerdivstyle3">
+                <div><span>&nbsp;</span> </div>
+                <div style="display: flex;flex-direction: row;">
+                    <img src="./SJ Interiors_files/logo.png" height="50px" width="50px" class="imgspace">
+                    <img src="./SJ Interiors_files/name.png" height="70px" width="200px" class="imgspace">
+                </div>  
+                <div style="display: flex;flex-direction: row;">
+                    <a href="https://youtube.com/@sjinteriorsdnd?feature=shared" target="_blank">
+                    <img src="./SJ Interiors_files/youtube.svg" height="50px" width="50px" class="iconspace" style="margin-left: 10px;"></a>
+                    <img src="./SJ Interiors_files/facebook.svg" height="50px" width="50px" class="iconspace">
+                    <a href="https://www.instagram.com/sj_interiors_dnd?igsh=M2J4cWIzYW9qbHBv" target="_blank"><img src="./SJ Interiors_files/instagram.svg" height="50px" width="50px" class="iconspace"></a>
+                    <img src="./SJ Interiors_files/twitter-x.svg" height="50px" width="50px" class="iconspace">
+                    <img src="./SJ Interiors_files/linkedin.svg" height="50px" width="50px" class="iconspace">
+                    
+                </div>  
+                <div style="text-align: center; margin-top: 50px; color: #777;background-color: #d9d9d9;"> <p>&copy; 2024 SJ Interiors | All rights reserved.<br> Developed by Digitexis and H Yashwanth.</p></div>
+
+            </div>
+
+
+            <!-- New Footer Section: Links -->
+            <div class="col-md-3 col-sm-12 footerdivstyle4">
+                <h4 style="color: black;"><b>Quick Links</b></h4>
+                <div><a href="about us.html" style="color: black; text-decoration: none;">About Us</a></div>
+                <div><a href="services.html" style="color: black; text-decoration: none;">Collections</a></div>
+                <div><a href="faqs.html" style="color: black; text-decoration: none;">FAQs</a></div>
+                <div><a href="contactus.html" style="color: black; text-decoration: none;">Contact Us</a></div>
+                
+            </div>
+
+            <div class="col-md-3 col-sm-12 footerdivstyle5">
+                <h4 style="color: black;"><b>Contact Info</b></h4>
+                <div><span>&nbsp;</span> </div>
+                <div style="display: flex;flex-direction: row;">
+                    <label style="color: black;"><b>Email Id:&nbsp;&nbsp; </b></label>
+                    <label style="color: black;"> <a href="mailto:sjinteriorsdnd@gmail.com">sjinteriorsdnd@gmail.com</a> , <a href="mailto:info@sjinteriorsdnd.co.in">info@sjinteriorsdnd.co.in</a></label>
+                </div>
+                <div style="display: flex;flex-direction: row;">
+                    <label style="color: black;"><b>Contact Number:&nbsp;&nbsp; </b></label>
+                    <label style="color: black;"> 6303062887</label>
+                </div> 
+                <div style="display: flex;flex-direction: row;">
+                    <label style="color: black;"><b>Address:&nbsp;&nbsp; </b></label>
+                    <label style="color: black;"> LIG-140, Door no: 4-51- 19/2.,Ground floor, Lawsons Bay Colony,<br>  Visakhapatnam, Andhra Pradesh 530017</label>
+                </div>  
+            </div>
+
+        </div>
+        
+    </div>
+    
+</div>
+
+
+
+</div>
+
+</div>
+
+<container id="my-app-container"></container>
+</body>
+</html>

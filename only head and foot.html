@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)https://www.sjinteriorsdnd.co.in/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SJ Interiors</title>
+    <link rel="stylesheet" href="./SJ Interiors_files/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
+
+
+  
+    <script src="./SJ Interiors_files/jquery.min.js.download"></script>
+    <script>
+        $(document).ready(function () {
+            $("#includedContent").load("./header.html");
+            $("#includedContent1").load("./footer.html");
+            $(".custom-button").on("mouseenter", function () {
+                $(this).animate({ width: "150px" });
+                console.log($(this).attr("id"));
+                var b1 = $(this).attr("id").split("_");
+                console.log(b1[1]);
+                if (b1[1] == 1) {
+                    var link1 = "#h_" + b1[1];
+                    // $(link1).text("Link 1").fadeIn(500);
+                    $(link1).fadeOut(100, function () {
+                        $(this).text("Link 1").fadeIn(100);
+                    });
+                } else if (b1[1] == 2) {
+                    var link1 = "#h_" + b1[1];
+                    $(link1).fadeOut(100, function () {
+                        $(this).text("Link 2").fadeIn(100);
+                    });
+                } else if (b1[1] == 3) {
+                    var link1 = "#h_" + b1[1];
+                    $(link1).fadeOut(100, function () {
+                        $(this).text("Link 3").fadeIn(100);
+                    });
+                } else if (b1[1] == 4) {
+                    var link1 = "#h_" + b1[1];
+                    $(link1).fadeOut(100, function () {
+                        $(this).text("Link 4").fadeIn(100);
+                    });
+                } else {
+                    var link1 = "#h_" + b1[1];
+                    $(link1).fadeOut(100, function () {
+                        $(this).text("Link 5").fadeIn(100);
+                    });
+                }
+
+
+            });
+            $(".custom-button").on("mouseleave", function () {
+                $(this).animate({ width: "30px" });
+                var b1 = $(this).attr("id").split("_");
+                console.log(b1[1]);
+                var link1 = "#h_" + b1[1];
+                // $(link1).text('+').fadeIn(500);
+                $(link1).fadeOut(100, function () {
+                    $(this).text("+").fadeIn(100);
+                });
+            });
+
+        });
+
+        /*javascript for scrolling*/
+        document.addEventListener('DOMContentLoaded', function () {
+            const marquee = document.getElementById('reasonsContainer');
+
+            // Clone the marquee content to create a continuous loop
+            marquee.innerHTML += marquee.innerHTML;
+
+            // Calculate the width of the marquee content for animation
+            const marqueeWidth = marquee.scrollWidth;
+
+            // Animate the marquee
+            function animateMarquee() {
+                anime({
+                    targets: marquee,
+                    translateX: [-marqueeWidth, 0],
+                    easing: 'linear',
+                    duration: 5000, // Adjust the duration as needed
+                    loop: true
+                });
+            }
+
+            // Call the animateMarquee function when the DOM is ready
+            animateMarquee();
+        });
+    </script>
+
+</head>
+
+<body>
+    <div id="fixedsocial">
+        <a href="https://wa.me/916303062887" target="_blank" id="wmobile1">
+            <div class="whatsappflat"></div>
+        </a>
+        <br>
+        <a href="tel:630-306-2887">
+            <div class="callflat"></div>
+        </a>
+    </div>
+    <div class="container1">
+        
+            <div style="position: sticky;z-index: 10;;background-color: transparent;top:0%;left: 0%;z-index: 20;width: 100%;">
+                <div id="includedContent"><script src="./SJ Interiors_files/jquery.min.js.download"></script>
+<link rel="stylesheet" href="./SJ Interiors_files/all.min.css">
+<script src="./SJ Interiors_files/jquery.min.js.download"></script>
+<link href="./SJ Interiors_files/bootstrap.min.css" rel="stylesheet">
+<script src="./SJ Interiors_files/bootstrap.bundle.min.js.download"></script>
+<script>
+	$(document).ready(function(){
+		$("#menu").hide();
+		$("#menu_btn").click(function(){
+			$("#menu").slideToggle(500);
+		});
+	});
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./SJ Interiors_files/css2" rel="stylesheet">
+<style>
+    .ibm-plex sans-thin {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+    }
+
+    .ibm-plex sans-extralight {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .ibm-plex sans-light {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .ibm-plex sans-regular {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .ibm-plex sans-medium {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .ibm-plex sans-semibold {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .ibm-plex sans-bold {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .ibm-plex sans-thin-italic {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+    }
+
+    .ibm-plex sans-extralight-italic {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 200;
+        font-style: italic;
+    }
+
+    .ibm-plex sans-light-italic {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    .ibm-plex sans-regular-italic {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .ibm-plex sans-medium-italic {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+    }
+
+    .ibm-plex sans-semibold-italic {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    .ibm-plex sans-bold-italic {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+    }
+    li{
+        color: maroon;
+    }
+
+</style>
+<div class="div2">
+	<div class="button-container">
+		<i class="fa-solid fa-bars button" id="menu_btn" style="color: maroon;"></i>
+	</div>
+</div>
+<div id="menu" style="display: none;">
+	
+	<br><br>
+	<br><br>
+
+	<ul class="ul-style">
+		<a href="index.html"><li style="font-weight: bolder;">Home</li></a>
+        <a href="about us.html"><li class="menu-item">About Us
+        </li></a>
+        <a href="services.html"><li>Services</li></a>
+      
+        <a href="contactus.html"><li class="menu-item">Contact Us
+        </li>
+    
+        <a href="portfolio.html"><li>Portfolio</li></a>
+		
+		
+	</ul>
+    <br>
+    <br><br>
+</div>
+<div class="div1" style="display:flex ;flex-direction: row;justify-content: flex-start;align-items: baseline">
+    <a href="index.html">
+        <img src="./SJ Interiors_files/logo.png" style="z-index: inherit; padding-left: 30px; padding-top: 10px;" height="80px" alt="Logo">
+      </a>
+	
+	<!-- <img src="./assets/name.png" style="z-index: inherit;padding-left: 30px;" height="60px"> -->
+	<div></div>
+</div>
+</div>
+            
+            
+            
+            <div class="container">
+ 
+                
+
+                </div>
+            </div>
+
+
+
+
+
+<!-- <div class="div7" style="background-image: url('./assets/bcak.jpg');opacity: 0.5">
+
+</div> -->
+<div class="row" style="width:80%;margin: auto">
+    <div class="col-md-6" style="align-self: center">
+        
+    </div>
+</div>
+
+<div id="includedContent1">
+<style>
+.footerdiv{
+    background: #2b7ccc;
+    background: #d9d9d9;
+    clip-path: polygon(0% 100%, 100% 100%,100% 40%, 0% 0%);
+    height: 400px;
+}
+.iconspace{
+    padding: 10px;
+}
+.imgspace{
+    margin: 10px;
+}
+.footerdivstyle1{
+    background-color:#d9d9d9 ;
+    z-index: 1000;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    width:100%;
+    height: max-content;
+}
+.footerdivstyle2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.footerdivstyle3{
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: fit-content;
+}
+.footerdivstyle4{
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: fit-content;
+}
+.footerdivstyle5{
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: fit-content;
+}
+@media screen and (max-width:500px){
+    .footerdivstyle1{
+        margin:0px;
+    }
+    .footerdivstyle2{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footerdivstyle3{
+        margin-left: 0px;
+        width: -webkit-fill-available;
+    }
+    .footerdiv{
+        height:700px;
+    }      
+    .footerdivstyle4{
+        margin-left: 0px;
+    }  
+}
+</style>
+
+<div class="footerdiv" style="position: relative;">
+    
+    <div class="row footerdivstyle1">
+        <div class="col-sm-12 col-md-12 footerdivstyle2">
+            <div class="col-md-3 col-sm-12 footerdivstyle3">
+                <div><span>&nbsp;</span> </div>
+                <div style="display: flex;flex-direction: row;">
+                    <img src="./SJ Interiors_files/logo.png" height="50px" width="50px" class="imgspace">
+                    <img src="./SJ Interiors_files/name.png" height="70px" width="200px" class="imgspace">
+                </div>  
+                <div style="display: flex;flex-direction: row;">
+                    <a href="https://youtube.com/@sjinteriorsdnd?feature=shared" target="_blank">
+                    <img src="./SJ Interiors_files/youtube.svg" height="50px" width="50px" class="iconspace" style="margin-left: 10px;"></a>
+                    <img src="./SJ Interiors_files/facebook.svg" height="50px" width="50px" class="iconspace">
+                    <a href="https://www.instagram.com/sj_interiors_dnd?igsh=M2J4cWIzYW9qbHBv" target="_blank"><img src="./SJ Interiors_files/instagram.svg" height="50px" width="50px" class="iconspace"></a>
+                    <img src="./SJ Interiors_files/twitter-x.svg" height="50px" width="50px" class="iconspace">
+                    <img src="./SJ Interiors_files/linkedin.svg" height="50px" width="50px" class="iconspace">
+                </div>  
+            </div>
+
+            <!-- New Footer Section: Links -->
+            <div class="col-md-3 col-sm-12 footerdivstyle4">
+                <h4 style="color: black;"><b>Quick Links</b></h4>
+                <div><a href="#about-us" style="color: black; text-decoration: none;">About Us</a></div>
+                <div><a href="#collections" style="color: black; text-decoration: none;">Collections</a></div>
+                <div><a href="#faqs" style="color: black; text-decoration: none;">FAQs</a></div>
+                <div><a href="#contact-us" style="color: black; text-decoration: none;">Contact Us</a></div>
+            </div>
+
+            <div class="col-md-3 col-sm-12 footerdivstyle5">
+                <h4 style="color: black;"><b>Contact Info</b></h4>
+                <div><span>&nbsp;</span> </div>
+                <div style="display: flex;flex-direction: row;">
+                    <label style="color: black;"><b>Email Id:&nbsp;&nbsp; </b></label>
+                    <label style="color: black;"> <a href="mailto:sjinteriorsdnd@gmail.com">sjinteriorsdnd@gmail.com</a> , <a href="mailto:info@sjinteriorsdnd.co.in">info@sjinteriorsdnd.co.in</a></label>
+                </div>
+                <div style="display: flex;flex-direction: row;">
+                    <label style="color: black;"><b>Contact Number:&nbsp;&nbsp; </b></label>
+                    <label style="color: black;"> 6303062887</label>
+                </div> 
+                <div style="display: flex;flex-direction: row;">
+                    <label style="color: black;"><b>Address:&nbsp;&nbsp; </b></label>
+                    <label style="color: black;"> LIG-140, Door no: 4-51- 19/2.,Ground floor,<br> Lawsons Bay Colony,<br> Visakhapatnam, Andhra Pradesh 530017</label>
+                </div>  
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</div>
+</div>
+
+<container id="my-app-container"></container>
+</body>
+</html>
